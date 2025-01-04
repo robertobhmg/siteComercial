@@ -1,0 +1,136 @@
+/* Reset Básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #004080;
+    color: white;
+    padding: 1em 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+#logo {
+    width: 60px;
+    height: auto;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1em;
+}
+
+nav button {
+    background-color: white;
+    color: #004080;
+    border: 2px solid #004080;
+    border-radius: 5px;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav button:hover {
+    background-color: #004080;
+    color: white;
+}
+
+/* Seção de Introdução */
+.intro {
+    text-align: center;
+    padding: 2em 1em;
+    background-color: #e6f2ff;
+}
+
+.intro h2 {
+    font-size: 1.8em;
+    margin-bottom: 0.5em;
+}
+
+.intro p {
+    font-size: 1.2em;
+}
+
+/* Formulário de Contato */
+.contato {
+    display: flex;
+    justify-content: center;
+    padding: 2em 1em;
+}
+
+.contact {
+    width: 90%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.contact label {
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 0.8em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.contact input:focus,
+.contact textarea:focus {
+    border-color: #004080;
+    outline: none;
+}
+
+.contact button.submit {
+    background-color: #004080;
+    color: white;
+    border: none;
+    padding: 0.8em;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact button.submit:hover {
+    background-color: #046bd2;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    font-size: 0.9em;
+}
+
+footer p {
+    margin: 0;
+}
+

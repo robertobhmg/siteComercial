@@ -1,0 +1,123 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #004080;
+    color: white;
+    padding: 1em 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+#logo {
+    width: 60px;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+}
+
+nav button {
+    background-color: white;
+    color: #004080;
+    border: 2px solid #004080;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav button:hover {
+    background-color: #004080;
+    color: white;
+}
+
+/* Seção de Introdução */
+.intro {
+    text-align: center;
+    background-color: #e6f2ff;
+    padding: 2em 1em;
+}
+
+.intro h2 {
+    font-size: 1.8em;
+    margin-bottom: 0.5em;
+}
+
+.intro p {
+    font-size: 1.2em;
+}
+
+/* Quem Somos */
+.quem-somos {
+    padding: 2em 1em;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.conteudo {
+    width: 90%;
+    max-width: 800px;
+    background-color: #f0f0f0;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.conteudo h1,
+.conteudo h2 {
+    color: #004080;
+    margin-bottom: 1em;
+}
+
+.conteudo p {
+    margin-bottom: 1em;
+}
+
+.conteudo ul {
+    list-style: disc;
+    margin-left: 1.5em;
+    padding-left: 0.5em;
+}
+
+.conteudo li {
+    margin-bottom: 0.5em;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: auto;
+}
+
+footer p {
+    font-size: 0.9em;
+}
+
