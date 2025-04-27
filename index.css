@@ -7,7 +7,7 @@
 }
 
 /* Corpo */
-body {
+/*body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -17,21 +17,57 @@ body {
   background-image: url(./imagem/fundo-pana.png);
   background-position: center;
   background-repeat: no-repeat;
+}*/
+
+body {
   
+  background: #032365;
+  background: linear-gradient(90deg, rgb(2, 3, 87) 30%, rgb(234, 234, 237) 60%, rgb(135, 11, 4) 70%);  
 }
 
+/*body {
+  
+  background: #1051d4;
+  background: linear-gradient(45deg, #3700ff, #1100ff, #0055ff, #0055ff, #0000ff, #0073ff, #00aaff);  
+  animation: brilho 5s ease infinite;
+}*/
+
+/*body {
+  background: linear-gradient(to bottom, #0000FF, #FFFFFF);
+}*/
 
 /* Botões */
 .btn {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 50em 0 0 0;
   gap: 1em;
+  margin-bottom: 6.5em;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5em;
+  height: 70vh;
+}
+
+/*nav {
+
+backdrop-filter: blur(30px);
+-webkit-backdrop-filter: blur(3px);
+border-radius: 5px;
+box-shadow: 0 5px 30px 0 rgba(22, 32, 220, 0.37);
+padding-right: 35px;
+border: 1px solid;
+}*/
+
+
 button {
-  background-color: #4caf50;
+  /*background-color: #4caf50;*/
+  background-color: #032365;
   color: white;
   font-size: 1.2em;
   padding: 0.8em 2em;
@@ -43,7 +79,10 @@ button {
 }
 
 button:hover {
-  background-color: #45a049;
+  /*background-color: #45a049;*/
+  background-color: white;
+  color: red;
+  font-weight: 700;
   transform: scale(1.05);
 }
 
@@ -53,15 +92,14 @@ button:active {
 
 /* Rodapé */
 footer {
-  background-color: #222;
-  color: #fff;
+  /*background-color: #222;*/
+  background-color: transparent;
+  /*color: #fff;*/
   text-align: center;
-  padding: 1em 0;
-  font-size: 0.9em;
+  padding: 0.4em 0;
+  font-size: 1.5em;
+  font-weight: 700;
 }
 
-footer p {
-  margin: 0;
-}
 
 
